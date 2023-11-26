@@ -32,11 +32,11 @@ futures-core = "0.3"
 pin-project = "1"
 
 # Ethers
-ethers = { version = "2.0.0", default-features = false }
+ethers = { git = "https://github.com/yzevm/ethers-rs.git", branch = "v2.0.7", default-features = false }
 
 [dev-dependencies]
 tokio = { version = "1.21.2", features = ["macros", "rt-multi-thread"] }
-ethers = { version = "2.0.0", default-features = false }
+ethers = { git = "https://github.com/yzevm/ethers-rs.git", branch = "v2.0.7", default-features = false }
 eyre = "0.6"
 
 [features]
